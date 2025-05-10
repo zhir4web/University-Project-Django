@@ -80,6 +80,9 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+CSRF_TRUSTED_ORIGINS = [
+    "https://django-p4ta.onrender.com",
+]
 
 
 # Password validation
